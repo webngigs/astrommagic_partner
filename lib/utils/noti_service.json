@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "astroway-diploy",
+  "private_key_id": "4063268963c2ba2858ebfa0165791207749783a5",
+  "private_key": "ADD FULL FILE DOWNLOADED FROM FIREBASE SERVICE ACCOUNT",
+  "client_email": "firebase-adminsdk-nnrom@astroway-diploy.iam.gserviceaccount.com",
+  "client_id": "118243690510425066312",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-nnrom%40astroway-diploy.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
