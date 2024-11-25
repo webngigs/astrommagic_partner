@@ -1,16 +1,16 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:astrowaypartner/constants/colorConst.dart';
-import 'package:astrowaypartner/controllers/HomeController/wallet_controller.dart';
-import 'package:astrowaypartner/widgets/app_bar_widget.dart';
-import 'package:astrowaypartner/widgets/common_textfield_widget.dart';
-import 'package:astrowaypartner/widgets/primary_text_widget.dart';
+import 'package:astromagic/constants/colorConst.dart';
+import 'package:astromagic/controllers/HomeController/wallet_controller.dart';
+import 'package:astromagic/widgets/app_bar_widget.dart';
+import 'package:astromagic/widgets/common_textfield_widget.dart';
+import 'package:astromagic/widgets/primary_text_widget.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 import 'package:sizer/sizer.dart';
 
 class AddAmountScreen extends StatelessWidget {

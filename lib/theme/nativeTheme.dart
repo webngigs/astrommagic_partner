@@ -1,7 +1,7 @@
 //flutter
 // ignore_for_file: file_names, deprecated_member_use
 
-import 'package:astrowaypartner/constants/colorConst.dart';
+import 'package:astromagic/constants/colorConst.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:sizer/sizer.dart';

@@ -2,25 +2,25 @@
 
 import 'dart:convert';
 
-import 'package:astrowaypartner/constants/imageConst.dart';
-import 'package:astrowaypartner/controllers/kundli_matchig_controller.dart';
-import 'package:astrowaypartner/models/kundli.dart';
-import 'package:astrowaypartner/models/kundliBasicModel.dart';
-import 'package:astrowaypartner/models/kundliModel.dart';
-import 'package:astrowaypartner/models/pdfModel.dart';
-import 'package:astrowaypartner/services/apiHelper.dart';
-import 'package:astrowaypartner/views/HomeScreen/FloatingButton/FreeKundli/Tabs/ashtakvargaScreen.dart';
-import 'package:astrowaypartner/views/HomeScreen/FloatingButton/FreeKundli/Tabs/basicKundliScreen.dart';
-import 'package:astrowaypartner/views/HomeScreen/FloatingButton/FreeKundli/Tabs/chartsScreen.dart';
-import 'package:astrowaypartner/views/HomeScreen/FloatingButton/FreeKundli/Tabs/kpScreen.dart';
-import 'package:astrowaypartner/views/HomeScreen/FloatingButton/FreeKundli/Tabs/kundliDashaScreen.dart';
-import 'package:astrowaypartner/views/HomeScreen/FloatingButton/FreeKundli/Tabs/kundliReportScreen.dart';
-import 'package:astrowaypartner/views/HomeScreen/FloatingButton/FreeKundli/getPdfKundali_model.dart';
+import 'package:astromagic/constants/imageConst.dart';
+import 'package:astromagic/controllers/kundli_matchig_controller.dart';
+import 'package:astromagic/models/kundli.dart';
+import 'package:astromagic/models/kundliBasicModel.dart';
+import 'package:astromagic/models/kundliModel.dart';
+import 'package:astromagic/models/pdfModel.dart';
+import 'package:astromagic/services/apiHelper.dart';
+import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/ashtakvargaScreen.dart';
+import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/basicKundliScreen.dart';
+import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/chartsScreen.dart';
+import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/kpScreen.dart';
+import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/kundliDashaScreen.dart';
+import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/kundliReportScreen.dart';
+import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/getPdfKundali_model.dart';
 import 'package:date_format/date_format.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 import 'dart:ui' as ui;
 
 import 'package:pdf/pdf.dart';

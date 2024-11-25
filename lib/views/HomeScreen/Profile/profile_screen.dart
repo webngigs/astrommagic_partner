@@ -2,28 +2,28 @@
 
 import 'dart:developer';
 
-import 'package:astrowaypartner/constants/colorConst.dart';
-import 'package:astrowaypartner/controllers/Authentication/signup_controller.dart';
-import 'package:astrowaypartner/controllers/callAvailability_controller.dart';
-import 'package:astrowaypartner/controllers/chatAvailability_controller.dart';
-import 'package:astrowaypartner/controllers/following_controller.dart';
-import 'package:astrowaypartner/views/HomeScreen/FloatingButton/FreeKundli/Tabs/reportTabs/chatAvailabilityScreen.dart';
-import 'package:astrowaypartner/views/HomeScreen/Profile/ProfileDetailScreen/assignment_detail_screen.dart';
-import 'package:astrowaypartner/views/HomeScreen/Profile/ProfileDetailScreen/availabity_Detail_screen.dart';
-import 'package:astrowaypartner/views/HomeScreen/Profile/ProfileDetailScreen/other_detail_screen.dart';
-import 'package:astrowaypartner/views/HomeScreen/Profile/ProfileDetailScreen/personal_detail_screen.dart';
-import 'package:astrowaypartner/views/HomeScreen/Profile/ProfileDetailScreen/skill_detail_screen.dart';
-import 'package:astrowaypartner/views/HomeScreen/Profile/follower_list_screen.dart';
-import 'package:astrowaypartner/views/HomeScreen/Profile/mediapickerDialog.dart';
-import 'package:astrowaypartner/views/HomeScreen/Profile/stories_screen.dart';
-import 'package:astrowaypartner/views/HomeScreen/call/callAvailabilityScreen.dart';
-import 'package:astrowaypartner/views/HomeScreen/viewStories.dart';
+import 'package:astromagic/constants/colorConst.dart';
+import 'package:astromagic/controllers/Authentication/signup_controller.dart';
+import 'package:astromagic/controllers/callAvailability_controller.dart';
+import 'package:astromagic/controllers/chatAvailability_controller.dart';
+import 'package:astromagic/controllers/following_controller.dart';
+import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/reportTabs/chatAvailabilityScreen.dart';
+import 'package:astromagic/views/HomeScreen/Profile/ProfileDetailScreen/assignment_detail_screen.dart';
+import 'package:astromagic/views/HomeScreen/Profile/ProfileDetailScreen/availabity_Detail_screen.dart';
+import 'package:astromagic/views/HomeScreen/Profile/ProfileDetailScreen/other_detail_screen.dart';
+import 'package:astromagic/views/HomeScreen/Profile/ProfileDetailScreen/personal_detail_screen.dart';
+import 'package:astromagic/views/HomeScreen/Profile/ProfileDetailScreen/skill_detail_screen.dart';
+import 'package:astromagic/views/HomeScreen/Profile/follower_list_screen.dart';
+import 'package:astromagic/views/HomeScreen/Profile/mediapickerDialog.dart';
+import 'package:astromagic/views/HomeScreen/Profile/stories_screen.dart';
+import 'package:astromagic/views/HomeScreen/call/callAvailabilityScreen.dart';
+import 'package:astromagic/views/HomeScreen/viewStories.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 import 'package:sizer/sizer.dart';
 
 import '../../../controllers/storiescontroller.dart';
@@ -74,15 +74,35 @@ class ProfileScreen extends StatelessWidget {
                                     onTap: () {
                                       log('clicked bro');
 
-                                      storycontroller.getAstroStory(signupController.astrologerList[0]!.id.toString()).then((value) {
-
-                                       value.isEmpty?
-                                       global.showToast(
-                                         message: 'No Story Uploaded',
-                                       ):Navigator.of(context).push(
-                                          MaterialPageRoute(builder: (context) => ViewStoriesScreen(profile: "$imgBaseurl${signupController.astrologerList[0]!.imagePath}",
-                                            name: signupController.astrologerList[0]!.name.toString(),isprofile: false,astroId: int.parse(signupController.astrologerList[0]!.id.toString()),)),
-                                        );
+                                      storycontroller
+                                          .getAstroStory(signupController
+                                              .astrologerList[0]!.id
+                                              .toString())
+                                          .then((value) {
+                                        value.isEmpty
+                                            ? global.showToast(
+                                                message: 'No Story Uploaded',
+                                              )
+                                            : Navigator.of(context).push(
+                                                MaterialPageRoute(
+                                                    builder: (context) =>
+                                                        ViewStoriesScreen(
+                                                          profile:
+                                                              "$imgBaseurl${signupController.astrologerList[0]!.imagePath}",
+                                                          name: signupController
+                                                              .astrologerList[
+                                                                  0]!
+                                                              .name
+                                                              .toString(),
+                                                          isprofile: false,
+                                                          astroId: int.parse(
+                                                              signupController
+                                                                  .astrologerList[
+                                                                      0]!
+                                                                  .id
+                                                                  .toString()),
+                                                        )),
+                                              );
                                       });
 
                                       // Get.to(() => const StoriesScreen());
@@ -202,8 +222,9 @@ class ProfileScreen extends StatelessWidget {
                                             right: 1,
                                             top: 1,
                                             child: InkWell(
-                                              onTap: (){
-                                                showStatusOptionsDialog(context);
+                                              onTap: () {
+                                                showStatusOptionsDialog(
+                                                    context);
                                               },
                                               child: Image(
                                                 fit: BoxFit.cover,

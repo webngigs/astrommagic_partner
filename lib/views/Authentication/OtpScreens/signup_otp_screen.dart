@@ -3,19 +3,19 @@
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:astrowaypartner/constants/messageConst.dart';
-import 'package:astrowaypartner/controllers/Authentication/signup_controller.dart';
-import 'package:astrowaypartner/controllers/Authentication/signup_otp_controller.dart';
-import 'package:astrowaypartner/utils/config.dart';
-import 'package:astrowaypartner/views/Authentication/OtpScreens/login_otp_screen.dart';
-import 'package:astrowaypartner/widgets/app_bar_widget.dart';
+import 'package:astromagic/constants/messageConst.dart';
+import 'package:astromagic/controllers/Authentication/signup_controller.dart';
+import 'package:astromagic/controllers/Authentication/signup_otp_controller.dart';
+import 'package:astromagic/utils/config.dart';
+import 'package:astromagic/views/Authentication/OtpScreens/login_otp_screen.dart';
+import 'package:astromagic/widgets/app_bar_widget.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:otpless_flutter/otpless_flutter.dart';
 import 'package:pinput/pinput.dart';
 import 'package:sizer/sizer.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 
 import '../../../services/apiHelper.dart';
 import '../signup_screen.dart';

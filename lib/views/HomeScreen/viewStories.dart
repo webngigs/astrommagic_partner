@@ -1,7 +1,7 @@
 // ignore_for_file: file_names, must_be_immutable, avoid_function_literals_in_foreach_calls
 
-import 'package:astrowaypartner/controllers/storiescontroller.dart';
-import 'package:astrowaypartner/utils/config.dart';
+import 'package:astromagic/controllers/storiescontroller.dart';
+import 'package:astromagic/utils/config.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_instance/get_instance.dart';

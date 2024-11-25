@@ -1,10 +1,10 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:astrowaypartner/constants/colorConst.dart';
-import 'package:astrowaypartner/controllers/AssistantController/add_assistant_controller.dart';
-import 'package:astrowaypartner/models/astrologerAssistant_model.dart';
-import 'package:astrowaypartner/views/HomeScreen/Assistant/assistant_screen.dart';
-import 'package:astrowaypartner/widgets/app_bar_widget.dart';
+import 'package:astromagic/constants/colorConst.dart';
+import 'package:astromagic/controllers/AssistantController/add_assistant_controller.dart';
+import 'package:astromagic/models/astrologerAssistant_model.dart';
+import 'package:astromagic/views/HomeScreen/Assistant/assistant_screen.dart';
+import 'package:astromagic/widgets/app_bar_widget.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

@@ -2,15 +2,13 @@
 
 import 'dart:developer';
 import 'dart:io';
-
-import 'package:astrowaypartner/models/viewStoryModel.dart';
-import 'package:astrowaypartner/services/apiHelper.dart';
+import 'package:astromagic/models/viewStoryModel.dart';
+import 'package:astromagic/services/apiHelper.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 import 'package:image_picker/image_picker.dart';
 import 'package:multi_image_picker_view/multi_image_picker_view.dart';
-
 import '../views/HomeScreen/Profile/mediapickerDialog.dart';
 import '../views/HomeScreen/Profile/picker.dart';
 import '../views/HomeScreen/Profile/trimmerview.dart';

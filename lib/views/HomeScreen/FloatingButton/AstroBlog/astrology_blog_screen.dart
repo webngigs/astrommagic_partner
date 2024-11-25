@@ -1,17 +1,16 @@
-import 'package:astrowaypartner/constants/colorConst.dart';
-import 'package:astrowaypartner/controllers/HomeController/astrology_blog_controller.dart';
-import 'package:astrowaypartner/views/HomeScreen/FloatingButton/AstroBlog/astrology_blog_detil_screen.dart';
-import 'package:astrowaypartner/views/HomeScreen/search_blog_screen.dart';
-import 'package:astrowaypartner/widgets/app_bar_widget.dart';
-import 'package:astrowaypartner/widgets/common_padding_2.dart';
+import 'package:astromagic/constants/colorConst.dart';
+import 'package:astromagic/controllers/HomeController/astrology_blog_controller.dart';
+import 'package:astromagic/views/HomeScreen/FloatingButton/AstroBlog/astrology_blog_detil_screen.dart';
+import 'package:astromagic/views/HomeScreen/search_blog_screen.dart';
+import 'package:astromagic/widgets/app_bar_widget.dart';
+import 'package:astromagic/widgets/common_padding_2.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 
 import '../../../../utils/config.dart';
-
 
 // ignore: must_be_immutable
 class AstrologyBlogScreen extends StatelessWidget {
@@ -48,8 +47,7 @@ class AstrologyBlogScreen extends StatelessWidget {
           child: GetBuilder<AstrologyBlogController>(builder: (a) {
             return blogController.astrologyBlogs.isEmpty
                 ? Center(
-                    child:
-                        const Text('Astrology Blogs not available').tr(),
+                    child: const Text('Astrology Blogs not available').tr(),
                   )
                 : ListView.builder(
                     itemCount: blogController.astrologyBlogs.length,

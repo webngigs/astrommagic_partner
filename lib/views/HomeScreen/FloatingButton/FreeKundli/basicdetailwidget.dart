@@ -1,4 +1,4 @@
-import 'package:astrowaypartner/views/HomeScreen/FloatingButton/FreeKundli/kundlichartModel.dart';
+import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/kundlichartModel.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:sizer/sizer.dart';

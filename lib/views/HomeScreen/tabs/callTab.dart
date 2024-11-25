@@ -2,7 +2,7 @@
 
 import 'dart:developer';
 
-import 'package:astrowaypartner/controllers/HomeController/call_controller.dart';
+import 'package:astromagic/controllers/HomeController/call_controller.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
@@ -13,7 +13,7 @@ import 'package:sizer/sizer.dart';
 
 import '../../../constants/colorConst.dart';
 import '../../../controllers/networkController.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 
 import '../../../main.dart';
 import '../../../utils/config.dart';
@@ -28,15 +28,6 @@ class CallTab extends StatefulWidget {
 class _CallTabState extends State<CallTab> with AutomaticKeepAliveClientMixin {
   final callController = Get.find<CallController>();
   final networkController = Get.find<NetworkController>();
-
-  @override
-  void initState() {
-    super.initState();
-    // Fetch chat data if needed
-    // if (callController.callList.isEmpty) {
-    //   callController.getCallList(false);
-    // }
-  }
 
   @override
   Widget build(BuildContext context) {

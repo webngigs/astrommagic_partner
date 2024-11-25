@@ -3,7 +3,7 @@
 import 'dart:developer';
 import 'dart:io';
 import 'dart:developer' as dev;
-import 'package:astrowaypartner/views/HomeScreen/chat/zoomimagewidget.dart';
+import 'package:astromagic/views/HomeScreen/chat/zoomimagewidget.dart';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -13,7 +13,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:sizer/sizer.dart';
 import 'package:swipe_to/swipe_to.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 import '../../../constants/colorConst.dart';
 import '../../../controllers/HomeController/call_controller.dart';
 import '../../../controllers/HomeController/chat_controller.dart';

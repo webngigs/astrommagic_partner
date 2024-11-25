@@ -3,21 +3,21 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:astrowaypartner/constants/colorConst.dart';
-import 'package:astrowaypartner/constants/messageConst.dart';
-import 'package:astrowaypartner/controllers/Authentication/signup_controller.dart';
-import 'package:astrowaypartner/controllers/report_detail_controller.dart';
-import 'package:astrowaypartner/models/report_model.dart';
-import 'package:astrowaypartner/views/HomeScreen/Report_Module/view_report_pdf_scree.dart';
-import 'package:astrowaypartner/widgets/app_bar_widget.dart';
-import 'package:astrowaypartner/widgets/common_padding_2.dart';
+import 'package:astromagic/constants/colorConst.dart';
+import 'package:astromagic/constants/messageConst.dart';
+import 'package:astromagic/controllers/Authentication/signup_controller.dart';
+import 'package:astromagic/controllers/report_detail_controller.dart';
+import 'package:astromagic/models/report_model.dart';
+import 'package:astromagic/views/HomeScreen/Report_Module/view_report_pdf_scree.dart';
+import 'package:astromagic/widgets/app_bar_widget.dart';
+import 'package:astromagic/widgets/common_padding_2.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import 'package:share_plus/share_plus.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 
 import '../../../utils/config.dart';
 

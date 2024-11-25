@@ -2,10 +2,10 @@
 
 import 'dart:convert';
 
-import 'package:astrowaypartner/services/apiHelper.dart';
+import 'package:astromagic/services/apiHelper.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../models/live_users_model.dart';

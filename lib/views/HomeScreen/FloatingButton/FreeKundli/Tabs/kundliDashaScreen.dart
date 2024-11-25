@@ -1,8 +1,8 @@
 // ignore_for_file: file_names
 
-import 'package:astrowaypartner/controllers/free_kundli_controller.dart';
-import 'package:astrowaypartner/models/kundliModel.dart';
-import 'package:astrowaypartner/views/HomeScreen/FloatingButton/FreeKundli/Tabs/DashaTabs/vismshattariDasha.dart';
+import 'package:astromagic/controllers/free_kundli_controller.dart';
+import 'package:astromagic/models/kundliModel.dart';
+import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/DashaTabs/vismshattariDasha.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -39,11 +39,18 @@ class KundliDashaScreen extends StatelessWidget {
                             alignment: Alignment.center,
                             padding: const EdgeInsets.only(left: 10, right: 10),
                             decoration: BoxDecoration(
-                              color: kundliController.dashaTab[index].isSelected ? const Color.fromARGB(255, 247, 243, 213) : Colors.transparent,
-                              border: Border.all(color: kundliController.dashaTab[index].isSelected ? Get.theme.primaryColor : Colors.black),
+                              color: kundliController.dashaTab[index].isSelected
+                                  ? const Color.fromARGB(255, 247, 243, 213)
+                                  : Colors.transparent,
+                              border: Border.all(
+                                  color: kundliController
+                                          .dashaTab[index].isSelected
+                                      ? Get.theme.primaryColor
+                                      : Colors.black),
                               borderRadius: BorderRadius.circular(30),
                             ),
-                            child: Text(kundliController.dashaTab[index].title, style: const TextStyle(fontSize: 13))),
+                            child: Text(kundliController.dashaTab[index].title,
+                                style: const TextStyle(fontSize: 13))),
                       ),
                     );
                   }),

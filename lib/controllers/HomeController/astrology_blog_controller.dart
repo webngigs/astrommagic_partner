@@ -6,7 +6,7 @@ import 'package:video_player/video_player.dart';
 
 import '../../models/astrology_blog_model.dart';
 import '../../services/apiHelper.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 
 import '../../utils/config.dart';
 

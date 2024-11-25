@@ -1,11 +1,11 @@
 // ignore_for_file: prefer_interpolation_to_compose_strings, avoid_print, prefer_typing_uninitialized_variables
 
 import 'dart:developer';
-import 'package:astrowaypartner/models/wallet_model.dart';
-import 'package:astrowaypartner/services/apiHelper.dart';
+import 'package:astromagic/models/wallet_model.dart';
+import 'package:astromagic/services/apiHelper.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 import '../../models/amount_model.dart';
 import '../../models/withdrawOptionModel.dart';
 

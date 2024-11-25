@@ -63,6 +63,6 @@ class DefaultFirebaseOptions {
     messagingSenderId: '381086206621',
     projectId: 'astroway-diploy',
     storageBucket: 'astroway-diploy.appspot.com',
-    iosBundleId: 'com.astrowaydiploy.astrologer',
+    iosBundleId: 'com.astromagic.astrologer',
   );
 }

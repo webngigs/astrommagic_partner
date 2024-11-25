@@ -3,15 +3,15 @@
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:astrowaypartner/constants/colorConst.dart';
-import 'package:astrowaypartner/controllers/HomeController/call_detail_controller.dart';
-import 'package:astrowaypartner/models/History/call_history_model.dart';
-import 'package:astrowaypartner/views/HomeScreen/player.dart';
+import 'package:astromagic/constants/colorConst.dart';
+import 'package:astromagic/controllers/HomeController/call_detail_controller.dart';
+import 'package:astromagic/models/History/call_history_model.dart';
+import 'package:astromagic/views/HomeScreen/player.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 import 'package:sizer/sizer.dart';
 
 import '../../models/chat_message_model.dart';

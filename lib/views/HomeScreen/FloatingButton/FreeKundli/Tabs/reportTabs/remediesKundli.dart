@@ -1,7 +1,7 @@
 // ignore_for_file: file_names
 
-import 'package:astrowaypartner/controllers/free_kundli_controller.dart';
-import 'package:astrowaypartner/views/HomeScreen/FloatingButton/FreeKundli/Tabs/reportTabs/gemstonesDetail.dart';
+import 'package:astromagic/controllers/free_kundli_controller.dart';
+import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/reportTabs/gemstonesDetail.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

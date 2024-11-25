@@ -1,16 +1,16 @@
 // ignore_for_file: must_be_immutable, depend_on_referenced_packages
 
-import 'package:astrowaypartner/constants/colorConst.dart';
-import 'package:astrowaypartner/constants/messageConst.dart';
-import 'package:astrowaypartner/controllers/Authentication/signup_controller.dart';
-import 'package:astrowaypartner/views/Authentication/login_screen.dart';
-import 'package:astrowaypartner/views/HomeScreen/Drawer/Setting/privacy_policy_screen.dart';
-import 'package:astrowaypartner/views/HomeScreen/Drawer/Setting/term_and_condition_screen.dart';
-import 'package:astrowaypartner/widgets/app_bar_widget.dart';
+import 'package:astromagic/constants/colorConst.dart';
+import 'package:astromagic/constants/messageConst.dart';
+import 'package:astromagic/controllers/Authentication/signup_controller.dart';
+import 'package:astromagic/views/Authentication/login_screen.dart';
+import 'package:astromagic/views/HomeScreen/Drawer/Setting/privacy_policy_screen.dart';
+import 'package:astromagic/views/HomeScreen/Drawer/Setting/term_and_condition_screen.dart';
+import 'package:astromagic/widgets/app_bar_widget.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 
 class SettingListScreen extends StatelessWidget {
   SettingListScreen({super.key});

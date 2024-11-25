@@ -2,10 +2,10 @@
 
 import 'dart:convert';
 
-import 'package:astrowaypartner/services/apiHelper.dart';
+import 'package:astromagic/services/apiHelper.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 
 class ChatAvailabilityController extends GetxController {
   int? chatType = 1;

@@ -1,9 +1,9 @@
 // ignore_for_file: avoid_print, use_build_context_synchronously
 
-import 'package:astrowaypartner/controllers/kundli_matchig_controller.dart';
-import 'package:astrowaypartner/views/HomeScreen/FloatingButton/KundliMatching/place_of_birth_screen.dart';
-import 'package:astrowaypartner/widgets/common_padding_2.dart';
-import 'package:astrowaypartner/widgets/common_small_%20textfield_widget.dart';
+import 'package:astromagic/controllers/kundli_matchig_controller.dart';
+import 'package:astromagic/views/HomeScreen/FloatingButton/KundliMatching/place_of_birth_screen.dart';
+import 'package:astromagic/widgets/common_padding_2.dart';
+import 'package:astromagic/widgets/common_small_%20textfield_widget.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

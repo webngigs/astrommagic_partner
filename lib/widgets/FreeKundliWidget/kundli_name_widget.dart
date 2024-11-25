@@ -1,5 +1,5 @@
-import 'package:astrowaypartner/controllers/free_kundli_controller.dart';
-import 'package:astrowaypartner/widgets/common_textfield_widget.dart';
+import 'package:astromagic/controllers/free_kundli_controller.dart';
+import 'package:astromagic/widgets/common_textfield_widget.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

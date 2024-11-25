@@ -1,16 +1,16 @@
 // ignore_for_file: prefer_if_null_operators, avoid_print, prefer_interpolation_to_compose_strings
 
-import 'package:astrowaypartner/models/History/call_history_model.dart';
-import 'package:astrowaypartner/models/History/chat_history_model.dart';
-import 'package:astrowaypartner/models/History/report_history_model.dart';
-import 'package:astrowaypartner/models/History/wallet_history_model.dart';
-import 'package:astrowaypartner/models/Master%20Table%20Model/all_skill_model.dart';
-import 'package:astrowaypartner/models/Master%20Table%20Model/astrologer_category_list_model.dart';
-import 'package:astrowaypartner/models/Master%20Table%20Model/language_list_model.dart';
-import 'package:astrowaypartner/models/Master%20Table%20Model/primary_skill_model.dart';
-import 'package:astrowaypartner/models/customerReview_model.dart';
-import 'package:astrowaypartner/models/systemFlagModel.dart';
-import 'package:astrowaypartner/models/week_model.dart';
+import 'package:astromagic/models/History/call_history_model.dart';
+import 'package:astromagic/models/History/chat_history_model.dart';
+import 'package:astromagic/models/History/report_history_model.dart';
+import 'package:astromagic/models/History/wallet_history_model.dart';
+import 'package:astromagic/models/Master%20Table%20Model/all_skill_model.dart';
+import 'package:astromagic/models/Master%20Table%20Model/astrologer_category_list_model.dart';
+import 'package:astromagic/models/Master%20Table%20Model/language_list_model.dart';
+import 'package:astromagic/models/Master%20Table%20Model/primary_skill_model.dart';
+import 'package:astromagic/models/customerReview_model.dart';
+import 'package:astromagic/models/systemFlagModel.dart';
+import 'package:astromagic/models/week_model.dart';
 
 import 'History/payment_model.dart';
 

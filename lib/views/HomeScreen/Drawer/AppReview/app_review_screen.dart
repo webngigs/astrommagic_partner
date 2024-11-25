@@ -1,9 +1,9 @@
-import 'package:astrowaypartner/controllers/app_review_controller.dart';
+import 'package:astromagic/controllers/app_review_controller.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 
 import '../../../../constants/colorConst.dart';
 import '../../../../utils/config.dart';
@@ -230,10 +230,9 @@ class _AppReviewScreenState extends State<AppReviewScreen> {
                                           child: Text(
                                             // ignore: unnecessary_null_comparison
                                             (appReviewController
-                                                            .clientReviews[
-                                                                index]
-                                                            .name !=
-                                                        '')
+                                                        .clientReviews[index]
+                                                        .name !=
+                                                    '')
                                                 ? appReviewController
                                                     .clientReviews[index].name
                                                 : 'User',

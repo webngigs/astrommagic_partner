@@ -1,10 +1,10 @@
 // ignore_for_file: avoid_print, prefer_interpolation_to_compose_strings
 
-import 'package:astrowaypartner/models/following_model.dart';
-import 'package:astrowaypartner/services/apiHelper.dart';
+import 'package:astromagic/models/following_model.dart';
+import 'package:astromagic/services/apiHelper.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 
 class FollowingController extends GetxController {
   String screen = 'following_controller.dart';

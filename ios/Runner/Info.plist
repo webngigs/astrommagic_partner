@@ -61,7 +61,7 @@
 			<string>Bundle Id</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.astrowaydiploy.astrologer</string>
+				<string>com.astromagic.astrologer</string>
 			</array>
 		</dict>
 	</array>

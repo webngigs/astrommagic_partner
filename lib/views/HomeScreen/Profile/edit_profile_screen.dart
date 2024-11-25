@@ -2,26 +2,26 @@
 
 import 'dart:convert';
 
-import 'package:astrowaypartner/constants/colorConst.dart';
-import 'package:astrowaypartner/constants/messageConst.dart';
-import 'package:astrowaypartner/controllers/HomeController/edit_profile_controller.dart';
-import 'package:astrowaypartner/controllers/HomeController/home_controller.dart';
-import 'package:astrowaypartner/models/Master%20Table%20Model/all_skill_model.dart';
-import 'package:astrowaypartner/models/Master%20Table%20Model/astrologer_category_list_model.dart';
-import 'package:astrowaypartner/models/Master%20Table%20Model/language_list_model.dart';
-import 'package:astrowaypartner/models/Master%20Table%20Model/primary_skill_model.dart';
-import 'package:astrowaypartner/models/time_availability_model.dart';
-import 'package:astrowaypartner/widgets/common_drop_down.dart';
-import 'package:astrowaypartner/widgets/common_padding.dart';
-import 'package:astrowaypartner/widgets/common_textfield_widget.dart';
-import 'package:astrowaypartner/widgets/primary_text_widget.dart';
+import 'package:astromagic/constants/colorConst.dart';
+import 'package:astromagic/constants/messageConst.dart';
+import 'package:astromagic/controllers/HomeController/edit_profile_controller.dart';
+import 'package:astromagic/controllers/HomeController/home_controller.dart';
+import 'package:astromagic/models/Master%20Table%20Model/all_skill_model.dart';
+import 'package:astromagic/models/Master%20Table%20Model/astrologer_category_list_model.dart';
+import 'package:astromagic/models/Master%20Table%20Model/language_list_model.dart';
+import 'package:astromagic/models/Master%20Table%20Model/primary_skill_model.dart';
+import 'package:astromagic/models/time_availability_model.dart';
+import 'package:astromagic/widgets/common_drop_down.dart';
+import 'package:astromagic/widgets/common_padding.dart';
+import 'package:astromagic/widgets/common_textfield_widget.dart';
+import 'package:astromagic/widgets/primary_text_widget.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 import 'package:image_picker/image_picker.dart';
 import 'package:intl_phone_number_input/intl_phone_number_input.dart';
 

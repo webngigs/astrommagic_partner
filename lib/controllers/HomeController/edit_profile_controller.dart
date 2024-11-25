@@ -4,15 +4,15 @@ import 'dart:convert';
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:astrowaypartner/controllers/Authentication/signup_controller.dart';
-import 'package:astrowaypartner/models/Master%20Table%20Model/all_skill_model.dart';
-import 'package:astrowaypartner/models/Master%20Table%20Model/astrologer_category_list_model.dart';
-import 'package:astrowaypartner/models/Master%20Table%20Model/language_list_model.dart';
-import 'package:astrowaypartner/models/Master%20Table%20Model/primary_skill_model.dart';
-import 'package:astrowaypartner/models/time_availability_model.dart';
-import 'package:astrowaypartner/models/user_model.dart';
-import 'package:astrowaypartner/models/week_model.dart';
-import 'package:astrowaypartner/services/apiHelper.dart';
+import 'package:astromagic/controllers/Authentication/signup_controller.dart';
+import 'package:astromagic/models/Master%20Table%20Model/all_skill_model.dart';
+import 'package:astromagic/models/Master%20Table%20Model/astrologer_category_list_model.dart';
+import 'package:astromagic/models/Master%20Table%20Model/language_list_model.dart';
+import 'package:astromagic/models/Master%20Table%20Model/primary_skill_model.dart';
+import 'package:astromagic/models/time_availability_model.dart';
+import 'package:astromagic/models/user_model.dart';
+import 'package:astromagic/models/week_model.dart';
+import 'package:astromagic/services/apiHelper.dart';
 import 'package:date_format/date_format.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
@@ -20,7 +20,7 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 
 class EditProfileController extends GetxController {
   String screen = 'edit_profile__controller.dart';

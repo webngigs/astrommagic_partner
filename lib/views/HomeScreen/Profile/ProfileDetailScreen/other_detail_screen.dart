@@ -1,8 +1,8 @@
-import 'package:astrowaypartner/constants/colorConst.dart';
-import 'package:astrowaypartner/widgets/app_bar_widget.dart';
+import 'package:astromagic/constants/colorConst.dart';
+import 'package:astromagic/widgets/app_bar_widget.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 
 class OtherDetailScreen extends StatelessWidget {
   const OtherDetailScreen({super.key});

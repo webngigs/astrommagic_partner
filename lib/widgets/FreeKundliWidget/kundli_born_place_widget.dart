@@ -1,6 +1,6 @@
-import 'package:astrowaypartner/controllers/HomeController/wallet_controller.dart';
-import 'package:astrowaypartner/controllers/free_kundli_controller.dart';
-import 'package:astrowaypartner/views/HomeScreen/FloatingButton/KundliMatching/place_of_birth_screen.dart';
+import 'package:astromagic/controllers/HomeController/wallet_controller.dart';
+import 'package:astromagic/controllers/free_kundli_controller.dart';
+import 'package:astromagic/views/HomeScreen/FloatingButton/KundliMatching/place_of_birth_screen.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -129,8 +129,7 @@ class _KundliBornPlaceWidgetState extends State<KundliBornPlaceWidget> {
           child: TextButton(
             style: ButtonStyle(
               padding: WidgetStateProperty.all(const EdgeInsets.all(0)),
-              backgroundColor:
-                  WidgetStateProperty.all(Get.theme.primaryColor),
+              backgroundColor: WidgetStateProperty.all(Get.theme.primaryColor),
               shape: WidgetStateProperty.all(
                 RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(15),

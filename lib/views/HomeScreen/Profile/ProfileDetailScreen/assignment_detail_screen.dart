@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../../../../constants/colorConst.dart';
 import '../../../../widgets/app_bar_widget.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 
 class AssignmentDetailScreen extends StatelessWidget {
   const AssignmentDetailScreen({super.key});

@@ -1,10 +1,10 @@
 // ignore_for_file: file_names
 
-import 'package:astrowaypartner/controllers/splashController.dart';
+import 'package:astromagic/controllers/splashController.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:astrowaypartner'
+import 'package:astromagic'
     '/utils/global.dart' as global;
 import 'package:sizer/sizer.dart';
 import '../BaseRoute/baseRoute.dart';

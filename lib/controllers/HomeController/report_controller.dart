@@ -1,10 +1,10 @@
 // ignore_for_file: prefer_interpolation_to_compose_strings, avoid_print
 
-import 'package:astrowaypartner/models/report_model.dart';
-import 'package:astrowaypartner/services/apiHelper.dart';
+import 'package:astromagic/models/report_model.dart';
+import 'package:astromagic/services/apiHelper.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 
 class ReportController extends GetxController {
   String screen = 'report_controller.dart';
@@ -28,7 +28,7 @@ class ReportController extends GetxController {
   }
 
 //Report list
-  Future getReportList(bool isLazyLoading, {int? isLoading=1}) async {
+  Future getReportList(bool isLazyLoading, {int? isLoading = 1}) async {
     try {
       startIndex = 0;
       if (reportList.isNotEmpty) {

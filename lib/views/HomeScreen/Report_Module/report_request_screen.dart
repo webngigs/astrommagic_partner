@@ -1,14 +1,13 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:astrowaypartner/constants/colorConst.dart';
-import 'package:astrowaypartner/controllers/HomeController/report_controller.dart';
-import 'package:astrowaypartner/models/report_model.dart';
-import 'package:astrowaypartner/views/HomeScreen/Report_Module/report_detail_screen.dart';
+import 'package:astromagic/constants/colorConst.dart';
+import 'package:astromagic/controllers/HomeController/report_controller.dart';
+import 'package:astromagic/models/report_model.dart';
+import 'package:astromagic/views/HomeScreen/Report_Module/report_detail_screen.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
 
 import '../../../utils/config.dart';
 

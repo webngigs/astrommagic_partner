@@ -1,4 +1,4 @@
-import 'package:astrowaypartner/models/image_model.dart';
+import 'package:astromagic/models/image_model.dart';
 
 class ProductModel {
   int? id;

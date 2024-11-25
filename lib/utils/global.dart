@@ -4,7 +4,6 @@ import 'dart:convert';
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:flutter/gestures.dart';
 import 'package:googleapis_auth/auth_io.dart';
 import 'package:http/http.dart' as http;
 
@@ -23,7 +22,6 @@ import 'package:get/get.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sizer/sizer.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 import '../controllers/HomeController/live_astrologer_controller.dart';
 import '../controllers/networkController.dart';
@@ -413,7 +411,7 @@ Future<Map<String, String>> getApiHeaders(bool authorizationRequired,
 //       link: Uri.parse(
 //           "https://astrowaydiploy.page.link/userProfile?screen=dailyHorscope"),
 //       androidParameters: const AndroidParameters(
-//         packageName: 'com.astrowaydiploy.astrologer',
+//         packageName: 'com.astromagic.astrologer',
 //         minimumVersion: 1,
 //       ),
 //     );

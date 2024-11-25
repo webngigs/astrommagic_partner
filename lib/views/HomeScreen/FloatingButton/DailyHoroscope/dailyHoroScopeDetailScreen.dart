@@ -1,12 +1,12 @@
 // ignore_for_file: file_names
 
-import 'package:astrowaypartner/constants/imageConst.dart';
-import 'package:astrowaypartner/views/HomeScreen/FloatingButton/DailyHoroscope/dailyHoroscopeScreen.dart';
+import 'package:astromagic/constants/imageConst.dart';
+import 'package:astromagic/views/HomeScreen/FloatingButton/DailyHoroscope/dailyHoroscopeScreen.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 
 import '../../../../utils/config.dart';
 

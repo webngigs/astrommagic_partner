@@ -5,7 +5,7 @@ import 'dart:convert';
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:astrowaypartner/utils/config.dart';
+import 'package:astromagic/utils/config.dart';
 import 'package:date_format/date_format.dart';
 
 import 'package:flutter/material.dart';
@@ -13,7 +13,7 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 import 'package:otpless_flutter/otpless_flutter.dart';
 
 import '../../models/Master Table Model/all_skill_model.dart';

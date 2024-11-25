@@ -2,19 +2,19 @@
 
 import 'dart:developer';
 
-import 'package:astrowaypartner/constants/colorConst.dart';
-import 'package:astrowaypartner/controllers/HomeController/wallet_controller.dart';
-import 'package:astrowaypartner/controllers/free_kundli_controller.dart';
-import 'package:astrowaypartner/widgets/FreeKundliWidget/create_kundli_title_widget.dart';
-import 'package:astrowaypartner/widgets/FreeKundliWidget/kundli_birth_time_widget.dart';
-import 'package:astrowaypartner/widgets/FreeKundliWidget/kundli_birthdate_widget.dart';
-import 'package:astrowaypartner/widgets/FreeKundliWidget/kundli_born_place_widget.dart';
-import 'package:astrowaypartner/widgets/FreeKundliWidget/kundli_gender_widget.dart';
-import 'package:astrowaypartner/widgets/FreeKundliWidget/kundli_name_widget.dart';
+import 'package:astromagic/constants/colorConst.dart';
+import 'package:astromagic/controllers/HomeController/wallet_controller.dart';
+import 'package:astromagic/controllers/free_kundli_controller.dart';
+import 'package:astromagic/widgets/FreeKundliWidget/create_kundli_title_widget.dart';
+import 'package:astromagic/widgets/FreeKundliWidget/kundli_birth_time_widget.dart';
+import 'package:astromagic/widgets/FreeKundliWidget/kundli_birthdate_widget.dart';
+import 'package:astromagic/widgets/FreeKundliWidget/kundli_born_place_widget.dart';
+import 'package:astromagic/widgets/FreeKundliWidget/kundli_gender_widget.dart';
+import 'package:astromagic/widgets/FreeKundliWidget/kundli_name_widget.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 
 import '../KundliMatching/payment/PaymentInformationScreen.dart';
 

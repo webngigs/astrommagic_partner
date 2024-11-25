@@ -65,22 +65,22 @@ class _KundliDetailsScreenState extends State<KundliDetailsScreen> {
   }
 }
 
-// import 'package:astrowaypartner/constants/colorConst.dart';
-// import 'package:astrowaypartner/constants/imageConst.dart';
-// import 'package:astrowaypartner/controllers/free_kundli_controller.dart';
-// import 'package:astrowaypartner/models/kundliModel.dart';
-// import 'package:astrowaypartner/views/BaseRoute/baseRoute.dart';
-// import 'package:astrowaypartner/views/HomeScreen/FloatingButton/FreeKundli/Tabs/ashtakvargaScreen.dart';
-// import 'package:astrowaypartner/views/HomeScreen/FloatingButton/FreeKundli/Tabs/basicKundliScreen.dart';
-// import 'package:astrowaypartner/views/HomeScreen/FloatingButton/FreeKundli/Tabs/chartsScreen.dart';
-// import 'package:astrowaypartner/views/HomeScreen/FloatingButton/FreeKundli/Tabs/kpScreen.dart';
-// import 'package:astrowaypartner/views/HomeScreen/FloatingButton/FreeKundli/Tabs/kundliDashaScreen.dart';
-// import 'package:astrowaypartner/views/HomeScreen/FloatingButton/FreeKundli/Tabs/kundliReportScreen.dart';
-// import 'package:astrowaypartner/widgets/app_bar_widget.dart';
+// import 'package:astromagic/constants/colorConst.dart';
+// import 'package:astromagic/constants/imageConst.dart';
+// import 'package:astromagic/controllers/free_kundli_controller.dart';
+// import 'package:astromagic/models/kundliModel.dart';
+// import 'package:astromagic/views/BaseRoute/baseRoute.dart';
+// import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/ashtakvargaScreen.dart';
+// import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/basicKundliScreen.dart';
+// import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/chartsScreen.dart';
+// import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/kpScreen.dart';
+// import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/kundliDashaScreen.dart';
+// import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/kundliReportScreen.dart';
+// import 'package:astromagic/widgets/app_bar_widget.dart';
 // import 'package:easy_localization/easy_localization.dart';
 // import 'package:flutter/material.dart';
 // import 'package:get/get.dart';
-// import 'package:astrowaypartner/utils/global.dart' as global;
+// import 'package:astromagic/utils/global.dart' as global;
 
 // class KundliDetailsScreen extends BaseRoute {
 //   final KundliModel? usreDetails;

@@ -8,7 +8,7 @@ import 'package:sizer/sizer.dart';
 import '../../../../../controllers/HomeController/wallet_controller.dart';
 import '../../../../../controllers/splashController.dart';
 import '../../../../BaseRoute/baseRoute.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 
 import 'PaymentInformationScreen.dart';
 

@@ -1,6 +1,6 @@
 // ignore_for_file: non_constant_identifier_names, must_be_immutable, import_of_legacy_library_into_null_safe
 
-import 'package:astrowaypartner/controllers/free_kundli_controller.dart';
+import 'package:astromagic/controllers/free_kundli_controller.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_time_picker_spinner/flutter_time_picker_spinner.dart';
@@ -58,8 +58,7 @@ class KundliBirthTimeWidget extends StatelessWidget {
           child: TextButton(
             style: ButtonStyle(
               padding: WidgetStateProperty.all(const EdgeInsets.all(0)),
-              backgroundColor:
-                  WidgetStateProperty.all(Get.theme.primaryColor),
+              backgroundColor: WidgetStateProperty.all(Get.theme.primaryColor),
               shape: WidgetStateProperty.all(
                 RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(15),

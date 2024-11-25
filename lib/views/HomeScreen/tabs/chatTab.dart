@@ -10,7 +10,7 @@ import '../../../constants/colorConst.dart';
 import '../../../constants/messageConst.dart';
 import '../../../controllers/HomeController/chat_controller.dart';
 import '../../../controllers/networkController.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 
 import '../../../main.dart';
 import '../../../utils/config.dart';

@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 
-import 'package:astrowaypartner/controllers/free_kundli_controller.dart';
+import 'package:astromagic/controllers/free_kundli_controller.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -30,18 +30,24 @@ class VismshattariDasha extends StatelessWidget {
                 headingRowHeight: 48,
                 columns: [
                   DataColumn(
-                    label: const Text('Planet', textAlign: TextAlign.center).tr(),
+                    label:
+                        const Text('Planet', textAlign: TextAlign.center).tr(),
                   ),
-                  DataColumn(label: const Text('Start Date', textAlign: TextAlign.center).tr()),
                   DataColumn(
-                    label: const Text('End Date', textAlign: TextAlign.center).tr(),
+                      label:
+                          const Text('Start Date', textAlign: TextAlign.center)
+                              .tr()),
+                  DataColumn(
+                    label: const Text('End Date', textAlign: TextAlign.center)
+                        .tr(),
                   ),
                 ],
                 border: const TableBorder(
                   verticalInside: BorderSide(color: Colors.grey),
                   horizontalInside: BorderSide(color: Colors.grey),
                 ),
-                rows: kundliController.listOfVishattari // Loops through dataColumnText, each iteration assigning the value to element
+                rows: kundliController
+                    .listOfVishattari // Loops through dataColumnText, each iteration assigning the value to element
                     .map(
                       ((element) => DataRow(
                             color: WidgetStateProperty.all(Colors.white),

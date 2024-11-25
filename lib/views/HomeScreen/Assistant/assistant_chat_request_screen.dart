@@ -1,5 +1,5 @@
-import 'package:astrowaypartner/controllers/AssistantController/astrologer_assistant_chat_controller.dart';
-import 'package:astrowaypartner/views/HomeScreen/Assistant/assistant_chat_screen.dart';
+import 'package:astromagic/controllers/AssistantController/astrologer_assistant_chat_controller.dart';
+import 'package:astromagic/views/HomeScreen/Assistant/assistant_chat_screen.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';

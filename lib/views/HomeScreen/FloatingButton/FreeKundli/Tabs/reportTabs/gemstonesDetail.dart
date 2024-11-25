@@ -2,7 +2,7 @@
 
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:astrowaypartner/controllers/free_kundli_controller.dart';
+import 'package:astromagic/controllers/free_kundli_controller.dart';
 import 'package:get/get.dart';
 
 // ignore: must_be_immutable

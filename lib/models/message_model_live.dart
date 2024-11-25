@@ -1,4 +1,4 @@
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 
 class MessageModelLive {
   int? id;
@@ -11,8 +11,19 @@ class MessageModelLive {
   DateTime? createdAt;
   DateTime? updatedAt;
   String? orderId;
-  MessageModelLive({this.id, this.userId1, this.userId2, this.message, this.isActive, this.isRead, this.isDelete, this.createdAt, this.updatedAt, this.orderId});
-  static MessageModelLive fromJson(Map<String, dynamic> json) => MessageModelLive(
+  MessageModelLive(
+      {this.id,
+      this.userId1,
+      this.userId2,
+      this.message,
+      this.isActive,
+      this.isRead,
+      this.isDelete,
+      this.createdAt,
+      this.updatedAt,
+      this.orderId});
+  static MessageModelLive fromJson(Map<String, dynamic> json) =>
+      MessageModelLive(
         userId1: json['userId1'],
         userId2: json['userId2'],
         message: json['message'],
@@ -20,8 +31,12 @@ class MessageModelLive {
         orderId: json['orderId'],
         isDelete: json['isDelete'],
         isRead: json['isRead'],
-        createdAt: json['createdAt'] != null ? global.DateFormatter.toDateTime(json['createdAt']) : null,
-        updatedAt: json['updatedAt'] != null ? global.DateFormatter.toDateTime(json['updatedAt']) : null,
+        createdAt: json['createdAt'] != null
+            ? global.DateFormatter.toDateTime(json['createdAt'])
+            : null,
+        updatedAt: json['updatedAt'] != null
+            ? global.DateFormatter.toDateTime(json['updatedAt'])
+            : null,
       );
 
   Map<String, dynamic> toJson() => {

@@ -3,8 +3,8 @@
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:astrowaypartner/controllers/storiescontroller.dart';
-import 'package:astrowaypartner/views/HomeScreen/Profile/trimmerview.dart';
+import 'package:astromagic/controllers/storiescontroller.dart';
+import 'package:astromagic/views/HomeScreen/Profile/trimmerview.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';

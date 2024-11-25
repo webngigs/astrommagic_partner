@@ -4,7 +4,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:astrowaypartner/report/open_result.dart';
+import 'package:astromagic/report/open_result.dart';
 import 'package:flutter/services.dart';
 
 // import 'macos.dart' as mac;

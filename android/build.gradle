@@ -1,8 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 buildscript {
-    ext.kotlin_version = '2.0.10' // Set this to the latest Kotlin version you want to use
-
+    ext.kotlin_version = '2.0.21' 
     repositories {
         google()
         mavenCentral()
@@ -10,7 +9,7 @@ buildscript {
 
     dependencies {
         classpath 'com.android.tools.build:gradle:8.5.2'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:2.0.21"
         classpath 'com.google.gms:google-services:4.4.2'
     }
 }
@@ -90,18 +89,18 @@ subprojects {
                 dependsOn project.tasks.named("fixManifestsAndNamespace")
             }
         }
+          if (project.plugins.hasPlugin("com.android.application") ||
+                project.plugins.hasPlugin("com.android.library")) {
+            project.android {
+                compileSdkVersion 34
+                buildToolsVersion "34.0.0"
+            }
+        }
         tasks.withType(KotlinCompile) {
             if (project.plugins.hasPlugin("com.android.application") || project.plugins.hasPlugin("com.android.library")) {
                 kotlinOptions.jvmTarget = android.compileOptions.sourceCompatibility
             } else {
                 kotlinOptions.jvmTarget = sourceCompatibility
-            }
-        }
-         if (project.plugins.hasPlugin("com.android.application") ||
-                project.plugins.hasPlugin("com.android.library")) {
-            project.android {
-                compileSdkVersion 34
-                buildToolsVersion "34.0.0"
             }
         }
     }

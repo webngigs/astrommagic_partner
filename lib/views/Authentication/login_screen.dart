@@ -1,22 +1,22 @@
 // ignore_for_file: must_be_immutable, prefer_const_constructors, avoid_print
 
 import 'dart:developer';
-import 'package:astrowaypartner/constants/colorConst.dart';
-import 'package:astrowaypartner/constants/imageConst.dart';
-import 'package:astrowaypartner/controllers/Authentication/login_controller.dart';
-import 'package:astrowaypartner/controllers/Authentication/login_otp_controller.dart';
-import 'package:astrowaypartner/controllers/Authentication/signup_controller.dart';
-import 'package:astrowaypartner/models/time_availability_model.dart';
-import 'package:astrowaypartner/models/week_model.dart';
-import 'package:astrowaypartner/views/Authentication/signup_screen.dart';
-import 'package:astrowaypartner/views/HomeScreen/Drawer/Setting/privacy_policy_screen.dart';
-import 'package:astrowaypartner/views/HomeScreen/Drawer/Setting/term_and_condition_screen.dart';
+import 'package:astromagic/constants/colorConst.dart';
+import 'package:astromagic/constants/imageConst.dart';
+import 'package:astromagic/controllers/Authentication/login_controller.dart';
+import 'package:astromagic/controllers/Authentication/login_otp_controller.dart';
+import 'package:astromagic/controllers/Authentication/signup_controller.dart';
+import 'package:astromagic/models/time_availability_model.dart';
+import 'package:astromagic/models/week_model.dart';
+import 'package:astromagic/views/Authentication/signup_screen.dart';
+import 'package:astromagic/views/HomeScreen/Drawer/Setting/privacy_policy_screen.dart';
+import 'package:astromagic/views/HomeScreen/Drawer/Setting/term_and_condition_screen.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 import 'package:intl_phone_number_input/intl_phone_number_input.dart';
 import 'package:sizer/sizer.dart';
 

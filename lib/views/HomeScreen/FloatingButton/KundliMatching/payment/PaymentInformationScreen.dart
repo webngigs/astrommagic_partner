@@ -2,7 +2,7 @@
 
 import 'dart:developer';
 
-import 'package:astrowaypartner/widgets/app_bar_widget.dart';
+import 'package:astromagic/widgets/app_bar_widget.dart';
 import 'package:easy_localization/easy_localization.dart';
 
 import 'package:flutter/material.dart';
@@ -12,7 +12,7 @@ import 'package:sizer/sizer.dart';
 import '../../../../../controllers/HomeController/wallet_controller.dart';
 import '../../../../../controllers/splashController.dart';
 import '../../../../../services/apiHelper.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 
 import 'payment_screen.dart';
 
@@ -209,8 +209,7 @@ class _PaymentInformationScreenState extends State<PaymentInformationScreen> {
             },
             style: ButtonStyle(
               padding: WidgetStateProperty.all(const EdgeInsets.all(0)),
-              backgroundColor:
-                  WidgetStateProperty.all(Get.theme.primaryColor),
+              backgroundColor: WidgetStateProperty.all(Get.theme.primaryColor),
               shape: WidgetStateProperty.all(
                 RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(5),

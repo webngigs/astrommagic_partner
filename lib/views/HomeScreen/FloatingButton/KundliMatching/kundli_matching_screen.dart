@@ -2,12 +2,12 @@
 
 import 'dart:developer';
 
-import 'package:astrowaypartner/constants/colorConst.dart';
-import 'package:astrowaypartner/controllers/kundli_matchig_controller.dart';
-import 'package:astrowaypartner/views/HomeScreen/FloatingButton/KundliMatching/kundaliDialog.dart';
-import 'package:astrowaypartner/widgets/app_bar_widget.dart';
-import 'package:astrowaypartner/views/HomeScreen/FloatingButton/KundliMatching/Tabs/new_matching_screen.dart';
-import 'package:astrowaypartner/views/HomeScreen/FloatingButton/KundliMatching/Tabs/open_kundli_screen.dart';
+import 'package:astromagic/constants/colorConst.dart';
+import 'package:astromagic/controllers/kundli_matchig_controller.dart';
+import 'package:astromagic/views/HomeScreen/FloatingButton/KundliMatching/kundaliDialog.dart';
+import 'package:astromagic/widgets/app_bar_widget.dart';
+import 'package:astromagic/views/HomeScreen/FloatingButton/KundliMatching/Tabs/new_matching_screen.dart';
+import 'package:astromagic/views/HomeScreen/FloatingButton/KundliMatching/Tabs/open_kundli_screen.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

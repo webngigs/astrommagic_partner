@@ -1,10 +1,10 @@
 // ignore_for_file: file_names, prefer_interpolation_to_compose_strings, avoid_print, non_constant_identifier_names
 
-import 'package:astrowaypartner/models/dailyHoroscopeModel.dart';
-import 'package:astrowaypartner/services/apiHelper.dart';
+import 'package:astromagic/models/dailyHoroscopeModel.dart';
+import 'package:astromagic/services/apiHelper.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 
 import '../models/dailyHororscopeModelVedic.dart';
 

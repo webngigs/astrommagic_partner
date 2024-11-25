@@ -2,14 +2,14 @@
 
 import 'dart:io';
 
-import 'package:astrowaypartner/constants/imageConst.dart';
-import 'package:astrowaypartner/controllers/kundli_matchig_controller.dart';
+import 'package:astromagic/constants/imageConst.dart';
+import 'package:astromagic/controllers/kundli_matchig_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 import 'package:sizer/sizer.dart';
 import 'package:syncfusion_flutter_gauges/gauges.dart';
-import 'package:astrowaypartner/utils/global.dart' as global;
+import 'package:astromagic/utils/global.dart' as global;
 
 class SouthKundliMatchingScreen extends StatefulWidget {
   const SouthKundliMatchingScreen({super.key});
