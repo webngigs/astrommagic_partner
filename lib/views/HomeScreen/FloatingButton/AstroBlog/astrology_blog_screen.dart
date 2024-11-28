@@ -1,14 +1,14 @@
-import 'package:astromagic/constants/colorConst.dart';
-import 'package:astromagic/controllers/HomeController/astrology_blog_controller.dart';
-import 'package:astromagic/views/HomeScreen/FloatingButton/AstroBlog/astrology_blog_detil_screen.dart';
-import 'package:astromagic/views/HomeScreen/search_blog_screen.dart';
-import 'package:astromagic/widgets/app_bar_widget.dart';
-import 'package:astromagic/widgets/common_padding_2.dart';
+import 'package:astrommagic/constants/colorConst.dart';
+import 'package:astrommagic/controllers/HomeController/astrology_blog_controller.dart';
+import 'package:astrommagic/views/HomeScreen/FloatingButton/AstroBlog/astrology_blog_detil_screen.dart';
+import 'package:astrommagic/views/HomeScreen/search_blog_screen.dart';
+import 'package:astrommagic/widgets/app_bar_widget.dart';
+import 'package:astrommagic/widgets/common_padding_2.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 
 import '../../../../utils/config.dart';
 

@@ -8,13 +8,13 @@
             <!-- android:showWhenLocked="true" -->
 
        <application
-        android:label="AstroMagic Partner"
+        android:label="Astrommagic Partner"
         android:name="${applicationName}"
         android:requestLegacyExternalStorage="true"
         android:usesCleartextTraffic="true"
         android:icon="@mipmap/ic_launcher">
         <activity
-            android:name="com.astromagic.astrologer_app.MainActivity"
+            android:name="com.astrommagic.astrologer_app.MainActivity"
             android:exported="true"
             android:launchMode="singleTask"
             android:theme="@style/LaunchTheme"

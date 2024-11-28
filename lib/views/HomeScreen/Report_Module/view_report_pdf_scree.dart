@@ -1,8 +1,8 @@
-import 'package:astromagic/constants/colorConst.dart';
-import 'package:astromagic/controllers/Authentication/signup_controller.dart';
-import 'package:astromagic/models/History/report_history_model.dart';
-import 'package:astromagic/utils/config.dart';
-import 'package:astromagic/widgets/app_bar_widget.dart';
+import 'package:astrommagic/constants/colorConst.dart';
+import 'package:astrommagic/controllers/Authentication/signup_controller.dart';
+import 'package:astrommagic/models/History/report_history_model.dart';
+import 'package:astrommagic/utils/config.dart';
+import 'package:astrommagic/widgets/app_bar_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';

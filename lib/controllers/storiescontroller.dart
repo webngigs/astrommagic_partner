@@ -2,11 +2,11 @@
 
 import 'dart:developer';
 import 'dart:io';
-import 'package:astromagic/models/viewStoryModel.dart';
-import 'package:astromagic/services/apiHelper.dart';
+import 'package:astrommagic/models/viewStoryModel.dart';
+import 'package:astrommagic/services/apiHelper.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 import 'package:image_picker/image_picker.dart';
 import 'package:multi_image_picker_view/multi_image_picker_view.dart';
 import '../views/HomeScreen/Profile/mediapickerDialog.dart';

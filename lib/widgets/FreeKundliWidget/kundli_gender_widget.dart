@@ -1,4 +1,4 @@
-import 'package:astromagic/controllers/free_kundli_controller.dart';
+import 'package:astrommagic/controllers/free_kundli_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

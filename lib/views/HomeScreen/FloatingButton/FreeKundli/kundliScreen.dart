@@ -2,16 +2,16 @@
 
 import 'dart:math';
 
-import 'package:astromagic/controllers/free_kundli_controller.dart';
-import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/Pdf_Screen.dart';
-import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/createNewKundli.dart';
-import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/editKundliScreen.dart';
-import 'package:astromagic/widgets/app_bar_widget.dart';
+import 'package:astrommagic/controllers/free_kundli_controller.dart';
+import 'package:astrommagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/Pdf_Screen.dart';
+import 'package:astrommagic/views/HomeScreen/FloatingButton/FreeKundli/createNewKundli.dart';
+import 'package:astrommagic/views/HomeScreen/FloatingButton/FreeKundli/editKundliScreen.dart';
+import 'package:astrommagic/widgets/app_bar_widget.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 
 class KundaliScreen extends StatefulWidget {
   const KundaliScreen({super.key});

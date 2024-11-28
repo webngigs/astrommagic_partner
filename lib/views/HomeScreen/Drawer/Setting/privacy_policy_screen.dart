@@ -1,6 +1,6 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:astromagic/services/apiHelper.dart';
+import 'package:astrommagic/services/apiHelper.dart';
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 

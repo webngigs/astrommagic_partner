@@ -1,6 +1,6 @@
 // ignore_for_file: avoid_print, prefer_interpolation_to_compose_strings
 
-import 'package:astromagic/models/time_availability_model.dart';
+import 'package:astrommagic/models/time_availability_model.dart';
 
 class Week {
   String? day;

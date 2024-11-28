@@ -1,4 +1,4 @@
-package com.astromagic.astrologer_app
+package com.astrommagic.astrologer_app
 
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.engine.FlutterEngine
@@ -16,7 +16,7 @@ import com.otpless.otplessflutter.OtplessFlutterPlugin
 
 
 class MainActivity: FlutterActivity() {
-    private val CHANNEL_NAME = "com.astroway.partner/channel_test"
+    private val CHANNEL_NAME = "com.astrommagic.partner/channel_test"
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
         MethodChannel(flutterEngine.dartExecutor.binaryMessenger, CHANNEL_NAME).setMethodCallHandler {

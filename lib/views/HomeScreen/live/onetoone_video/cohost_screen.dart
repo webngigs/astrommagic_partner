@@ -1,7 +1,7 @@
 import 'package:agora_rtc_engine/agora_rtc_engine.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 
 class CoHostWidget extends StatelessWidget {
   const CoHostWidget({

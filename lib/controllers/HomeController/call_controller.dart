@@ -2,14 +2,14 @@
 
 import 'dart:developer';
 
-import 'package:astromagic/models/call_model.dart';
-import 'package:astromagic/services/apiHelper.dart';
-import 'package:astromagic/views/HomeScreen/live/onetoone_video/onetooneVideo.dart';
+import 'package:astrommagic/models/call_model.dart';
+import 'package:astrommagic/services/apiHelper.dart';
+import 'package:astrommagic/views/HomeScreen/live/onetoone_video/onetooneVideo.dart';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 import '../../models/intake_model.dart';
 import '../../views/HomeScreen/call/accept_call_screen.dart';
 

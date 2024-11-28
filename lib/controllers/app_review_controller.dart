@@ -1,9 +1,9 @@
 // ignore_for_file: avoid_print
 
-import 'package:astromagic/services/apiHelper.dart';
+import 'package:astrommagic/services/apiHelper.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 
 import '../models/app_review_model.dart';
 

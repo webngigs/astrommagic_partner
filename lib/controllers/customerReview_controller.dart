@@ -1,10 +1,10 @@
 // ignore_for_file: file_names, prefer_interpolation_to_compose_strings, avoid_print
 
-import 'package:astromagic/models/customerReview_model.dart';
-import 'package:astromagic/services/apiHelper.dart';
+import 'package:astrommagic/models/customerReview_model.dart';
+import 'package:astrommagic/services/apiHelper.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 
 class CustomerReviewController extends GetxController {
   String screen = 'customerReview_controller.dart';

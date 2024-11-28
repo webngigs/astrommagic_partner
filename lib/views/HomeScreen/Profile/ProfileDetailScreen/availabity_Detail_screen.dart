@@ -1,8 +1,8 @@
 // ignore_for_file: file_names, must_be_immutable
 
-import 'package:astromagic/constants/colorConst.dart';
-import 'package:astromagic/controllers/Authentication/signup_controller.dart';
-import 'package:astromagic/widgets/app_bar_widget.dart';
+import 'package:astrommagic/constants/colorConst.dart';
+import 'package:astrommagic/controllers/Authentication/signup_controller.dart';
+import 'package:astrommagic/widgets/app_bar_widget.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

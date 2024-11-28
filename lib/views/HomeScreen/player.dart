@@ -1,7 +1,7 @@
 import 'dart:developer';
 
-import 'package:astromagic/controllers/HomeController/call_detail_controller.dart';
-import 'package:astromagic/models/History/call_history_model.dart';
+import 'package:astrommagic/controllers/HomeController/call_detail_controller.dart';
+import 'package:astrommagic/models/History/call_history_model.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lecle_yoyo_player/lecle_yoyo_player.dart';

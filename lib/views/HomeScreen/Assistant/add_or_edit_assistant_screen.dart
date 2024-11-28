@@ -2,23 +2,23 @@
 
 import 'dart:convert';
 
-import 'package:astromagic/constants/colorConst.dart';
-import 'package:astromagic/controllers/AssistantController/add_assistant_controller.dart';
-import 'package:astromagic/models/Master%20Table%20Model/assistant/assistant_all_skill_model.dart';
-import 'package:astromagic/models/Master%20Table%20Model/assistant/assistant_language_list_model.dart';
-import 'package:astromagic/models/Master%20Table%20Model/assistant/assistant_primary_skill_model.dart';
-import 'package:astromagic/models/astrologerAssistant_model.dart';
-import 'package:astromagic/views/HomeScreen/Assistant/assistant_screen.dart';
-import 'package:astromagic/widgets/app_bar_widget.dart';
-import 'package:astromagic/widgets/common_drop_down.dart';
-import 'package:astromagic/widgets/common_textfield_widget.dart';
-import 'package:astromagic/widgets/primary_text_widget.dart';
+import 'package:astrommagic/constants/colorConst.dart';
+import 'package:astrommagic/controllers/AssistantController/add_assistant_controller.dart';
+import 'package:astrommagic/models/Master%20Table%20Model/assistant/assistant_all_skill_model.dart';
+import 'package:astrommagic/models/Master%20Table%20Model/assistant/assistant_language_list_model.dart';
+import 'package:astrommagic/models/Master%20Table%20Model/assistant/assistant_primary_skill_model.dart';
+import 'package:astrommagic/models/astrologerAssistant_model.dart';
+import 'package:astrommagic/views/HomeScreen/Assistant/assistant_screen.dart';
+import 'package:astrommagic/widgets/app_bar_widget.dart';
+import 'package:astrommagic/widgets/common_drop_down.dart';
+import 'package:astrommagic/widgets/common_textfield_widget.dart';
+import 'package:astrommagic/widgets/primary_text_widget.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 import 'package:image_picker/image_picker.dart';
 import 'package:intl_phone_number_input/intl_phone_number_input.dart';
 

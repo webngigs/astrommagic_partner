@@ -5,7 +5,7 @@ import 'package:get/get.dart';
 
 import '../../models/assistant_chat_request_model.dart';
 import '../../models/chat_message_model.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 
 import '../../services/apiHelper.dart';
 

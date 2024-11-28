@@ -16,7 +16,7 @@ import com.otpless.otplessflutter.OtplessFlutterPlugin
 
 
 class MainActivity: FlutterActivity() {
-    private val CHANNEL_NAME = "com.astroway.partner/channel_test"
+    private val CHANNEL_NAME = "com.astrommagic.partner/channel_test"
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
         MethodChannel(flutterEngine.dartExecutor.binaryMessenger, CHANNEL_NAME).setMethodCallHandler {

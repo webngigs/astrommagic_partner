@@ -411,7 +411,7 @@ Future<Map<String, String>> getApiHeaders(bool authorizationRequired,
 //       link: Uri.parse(
 //           "https://astrowaydiploy.page.link/userProfile?screen=dailyHorscope"),
 //       androidParameters: const AndroidParameters(
-//         packageName: 'com.astromagic.astrologer',
+//         packageName: 'com.astrommagic.astrologer',
 //         minimumVersion: 1,
 //       ),
 //     );

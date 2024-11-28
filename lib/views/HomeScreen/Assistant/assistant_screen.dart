@@ -1,13 +1,13 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:astromagic/constants/colorConst.dart';
-import 'package:astromagic/constants/messageConst.dart';
-import 'package:astromagic/controllers/AssistantController/add_assistant_controller.dart';
-import 'package:astromagic/models/astrologerAssistant_model.dart';
-import 'package:astromagic/views/HomeScreen/Assistant/add_or_edit_assistant_screen.dart';
-import 'package:astromagic/views/HomeScreen/Assistant/assistant_detail_screen.dart';
-import 'package:astromagic/views/HomeScreen/home_screen.dart';
-import 'package:astromagic/widgets/app_bar_widget.dart';
+import 'package:astrommagic/constants/colorConst.dart';
+import 'package:astrommagic/constants/messageConst.dart';
+import 'package:astrommagic/controllers/AssistantController/add_assistant_controller.dart';
+import 'package:astrommagic/models/astrologerAssistant_model.dart';
+import 'package:astrommagic/views/HomeScreen/Assistant/add_or_edit_assistant_screen.dart';
+import 'package:astrommagic/views/HomeScreen/Assistant/assistant_detail_screen.dart';
+import 'package:astrommagic/views/HomeScreen/home_screen.dart';
+import 'package:astrommagic/widgets/app_bar_widget.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

@@ -1,9 +1,9 @@
-import 'package:astromagic/constants/colorConst.dart';
-import 'package:astromagic/constants/imageConst.dart';
-import 'package:astromagic/constants/messageConst.dart';
-import 'package:astromagic/controllers/Authentication/login_controller.dart';
-import 'package:astromagic/views/Authentication/login_screen.dart';
-import 'package:astromagic/widgets/app_bar_widget.dart';
+import 'package:astrommagic/constants/colorConst.dart';
+import 'package:astrommagic/constants/imageConst.dart';
+import 'package:astrommagic/constants/messageConst.dart';
+import 'package:astrommagic/controllers/Authentication/login_controller.dart';
+import 'package:astrommagic/views/Authentication/login_screen.dart';
+import 'package:astrommagic/widgets/app_bar_widget.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

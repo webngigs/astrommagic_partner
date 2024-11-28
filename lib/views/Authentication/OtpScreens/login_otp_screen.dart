@@ -3,7 +3,7 @@
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:astromagic/services/apiHelper.dart';
+import 'package:astrommagic/services/apiHelper.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -17,7 +17,7 @@ import '../../../controllers/Authentication/login_otp_controller.dart';
 import '../../../controllers/Authentication/signup_controller.dart';
 import '../../../utils/config.dart';
 import '../../../widgets/app_bar_widget.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 
 import '../login_screen.dart';
 

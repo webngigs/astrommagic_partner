@@ -2,14 +2,14 @@
 
 import 'dart:developer';
 
-import 'package:astromagic/controllers/HomeController/call_controller.dart';
-import 'package:astromagic/controllers/HomeController/chat_controller.dart';
-import 'package:astromagic/controllers/HomeController/report_controller.dart';
-import 'package:astromagic/controllers/HomeController/wallet_controller.dart';
-import 'package:astromagic/controllers/following_controller.dart';
+import 'package:astrommagic/controllers/HomeController/call_controller.dart';
+import 'package:astrommagic/controllers/HomeController/chat_controller.dart';
+import 'package:astrommagic/controllers/HomeController/report_controller.dart';
+import 'package:astrommagic/controllers/HomeController/wallet_controller.dart';
+import 'package:astrommagic/controllers/following_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../models/language.dart';

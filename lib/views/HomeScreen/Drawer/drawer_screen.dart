@@ -1,22 +1,22 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:astromagic/constants/colorConst.dart';
-import 'package:astromagic/controllers/AssistantController/add_assistant_controller.dart';
-import 'package:astromagic/controllers/Authentication/signup_controller.dart';
-import 'package:astromagic/controllers/HomeController/home_controller.dart';
-import 'package:astromagic/controllers/HomeController/wallet_controller.dart';
-import 'package:astromagic/controllers/app_review_controller.dart';
-import 'package:astromagic/controllers/customerReview_controller.dart';
+import 'package:astrommagic/constants/colorConst.dart';
+import 'package:astrommagic/controllers/AssistantController/add_assistant_controller.dart';
+import 'package:astrommagic/controllers/Authentication/signup_controller.dart';
+import 'package:astrommagic/controllers/HomeController/home_controller.dart';
+import 'package:astrommagic/controllers/HomeController/wallet_controller.dart';
+import 'package:astrommagic/controllers/app_review_controller.dart';
+import 'package:astrommagic/controllers/customerReview_controller.dart';
 
-import 'package:astromagic/views/HomeScreen/Assistant/assistant_screen.dart';
-import 'package:astromagic/views/HomeScreen/Drawer/AppReview/app_review_screen.dart';
-import 'package:astromagic/views/HomeScreen/Drawer/Setting/setting_list_screen.dart';
-import 'package:astromagic/views/HomeScreen/Drawer/Wallet/Wallet_screen.dart';
-import 'package:astromagic/views/HomeScreen/Drawer/customer_review_screen.dart';
+import 'package:astrommagic/views/HomeScreen/Assistant/assistant_screen.dart';
+import 'package:astrommagic/views/HomeScreen/Drawer/AppReview/app_review_screen.dart';
+import 'package:astrommagic/views/HomeScreen/Drawer/Setting/setting_list_screen.dart';
+import 'package:astrommagic/views/HomeScreen/Drawer/Wallet/Wallet_screen.dart';
+import 'package:astrommagic/views/HomeScreen/Drawer/customer_review_screen.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 import 'package:sizer/sizer.dart';
 
 import '../../../controllers/AssistantController/astrologer_assistant_chat_controller.dart';

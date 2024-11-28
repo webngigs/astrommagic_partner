@@ -1,4 +1,4 @@
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 
 class MessageModelLive {
   int? id;

@@ -61,7 +61,7 @@
 			<string>Bundle Id</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.astromagic.astrologer</string>
+				<string>com.astrommagic.astrologer</string>
 			</array>
 		</dict>
 	</array>

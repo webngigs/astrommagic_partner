@@ -2,7 +2,7 @@
 
 import 'dart:developer';
 
-import 'package:astromagic/utils/config.dart';
+import 'package:astrommagic/utils/config.dart';
 import 'package:flutter_callkit_incoming/entities/android_params.dart';
 import 'package:flutter_callkit_incoming/entities/call_kit_params.dart';
 import 'package:flutter_callkit_incoming/entities/notification_params.dart';
@@ -33,8 +33,8 @@ class CallUtils {
     CallKitParams callKitParams = CallKitParams(
       id: currentUuid,
       nameCaller: body['name'],
-      appName: 'AstroMagic',
-      handle: 'AstroMagic Partner',
+      appName: 'astrommagic',
+      handle: 'Astrommagic Partner',
       // avatar: imageUrl,
       type: calltype ? 0 : 1, // 0 for audio call, 1 for video call
       textAccept: 'Accept',

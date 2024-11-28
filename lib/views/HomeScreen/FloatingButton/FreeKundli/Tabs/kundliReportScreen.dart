@@ -1,8 +1,8 @@
 // ignore_for_file: file_names
 
-import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/reportTabs/doshaReport.dart';
-import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/reportTabs/generalReportScreen.dart';
-import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/reportTabs/remediesKundli.dart';
+import 'package:astrommagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/reportTabs/doshaReport.dart';
+import 'package:astrommagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/reportTabs/generalReportScreen.dart';
+import 'package:astrommagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/reportTabs/remediesKundli.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

@@ -1,8 +1,8 @@
 // ignore_for_file: avoid_print, deprecated_member_use, unused_element
 
-import 'package:astromagic/controllers/HomeController/call_controller.dart';
-import 'package:astromagic/controllers/HomeController/chat_controller.dart';
-import 'package:astromagic/controllers/HomeController/report_controller.dart';
+import 'package:astrommagic/controllers/HomeController/call_controller.dart';
+import 'package:astrommagic/controllers/HomeController/chat_controller.dart';
+import 'package:astrommagic/controllers/HomeController/report_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

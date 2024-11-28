@@ -6,7 +6,7 @@ import 'package:flutter/services.dart';
 
 class NotificationMethodChannel {
   void createNewChannel() async {
-    const notichannel = MethodChannel('com.astroway.partner/channel_test');
+    const notichannel = MethodChannel('com.astrommagic.partner/channel_test');
 
     Map<String, String> channelMap = {
       "id": "channel_id_17",

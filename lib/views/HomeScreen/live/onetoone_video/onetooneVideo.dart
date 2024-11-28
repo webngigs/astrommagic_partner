@@ -4,15 +4,15 @@ import 'dart:async';
 import 'dart:developer';
 
 import 'package:agora_rtc_engine/agora_rtc_engine.dart';
-import 'package:astromagic/controllers/HomeController/wallet_controller.dart';
-import 'package:astromagic/views/HomeScreen/home_screen.dart';
+import 'package:astrommagic/controllers/HomeController/wallet_controller.dart';
+import 'package:astrommagic/views/HomeScreen/home_screen.dart';
 import 'package:draggable_widget/draggable_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_countdown_timer/index.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:sizer/sizer.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 
 import '../../../../controllers/HomeController/call_controller.dart';
 import '../../../../services/apiHelper.dart';

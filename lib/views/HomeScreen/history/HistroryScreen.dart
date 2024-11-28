@@ -13,7 +13,7 @@ import '../../../controllers/HomeController/wallet_controller.dart';
 import '../../../utils/config.dart';
 import '../../../widgets/wallet_history_screen.dart';
 import '../Report_Module/report_history_list_screen.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 
 import '../call_detail_screen.dart';
 import '../chat/chat_screen.dart';

@@ -1,15 +1,15 @@
-import 'package:astromagic/constants/colorConst.dart';
-import 'package:astromagic/controllers/dailyHoroscopeController.dart';
-import 'package:astromagic/views/HomeScreen/FloatingButton/AstroBlog/astrology_blog_screen.dart';
-import 'package:astromagic/views/HomeScreen/FloatingButton/DailyHoroscope/dailyHoroscopeScreen.dart';
-import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/kundliScreen.dart';
-import 'package:astromagic/views/HomeScreen/FloatingButton/KundliMatching/kundli_matching_screen.dart';
+import 'package:astrommagic/constants/colorConst.dart';
+import 'package:astrommagic/controllers/dailyHoroscopeController.dart';
+import 'package:astrommagic/views/HomeScreen/FloatingButton/AstroBlog/astrology_blog_screen.dart';
+import 'package:astrommagic/views/HomeScreen/FloatingButton/DailyHoroscope/dailyHoroscopeScreen.dart';
+import 'package:astrommagic/views/HomeScreen/FloatingButton/FreeKundli/kundliScreen.dart';
+import 'package:astrommagic/views/HomeScreen/FloatingButton/KundliMatching/kundli_matching_screen.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:simple_speed_dial/simple_speed_dial.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 import 'package:sizer/sizer.dart';
 
 import '../controllers/HomeController/astrology_blog_controller.dart';

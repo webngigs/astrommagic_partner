@@ -2,11 +2,11 @@
 
 import 'dart:developer';
 
-import 'package:astromagic/constants/colorConst.dart';
-import 'package:astromagic/controllers/free_kundli_controller.dart';
-import 'package:astromagic/controllers/kundli_matchig_controller.dart';
-import 'package:astromagic/controllers/search_place_controller.dart';
-import 'package:astromagic/widgets/app_bar_widget.dart';
+import 'package:astrommagic/constants/colorConst.dart';
+import 'package:astrommagic/controllers/free_kundli_controller.dart';
+import 'package:astrommagic/controllers/kundli_matchig_controller.dart';
+import 'package:astrommagic/controllers/search_place_controller.dart';
+import 'package:astrommagic/widgets/app_bar_widget.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:geocoding/geocoding.dart';

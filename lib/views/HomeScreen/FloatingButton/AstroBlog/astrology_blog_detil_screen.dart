@@ -1,7 +1,7 @@
-import 'package:astromagic/constants/colorConst.dart';
-import 'package:astromagic/controllers/HomeController/astrology_blog_controller.dart';
-import 'package:astromagic/widgets/app_bar_widget.dart';
-import 'package:astromagic/widgets/common_padding_2.dart';
+import 'package:astrommagic/constants/colorConst.dart';
+import 'package:astrommagic/controllers/HomeController/astrology_blog_controller.dart';
+import 'package:astrommagic/widgets/app_bar_widget.dart';
+import 'package:astrommagic/widgets/common_padding_2.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';

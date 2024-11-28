@@ -1,14 +1,14 @@
 // ignore_for_file: file_names
 
-import 'package:astromagic/views/HomeScreen/FloatingButton/KundliMatching/place_of_birth_screen.dart';
-import 'package:astromagic/widgets/common_small_%20textfield_widget.dart';
+import 'package:astrommagic/views/HomeScreen/FloatingButton/KundliMatching/place_of_birth_screen.dart';
+import 'package:astrommagic/widgets/common_small_%20textfield_widget.dart';
 import 'package:date_format/date_format.dart';
-import 'package:astromagic/controllers/free_kundli_controller.dart';
+import 'package:astrommagic/controllers/free_kundli_controller.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_holo_date_picker/date_picker.dart';
 import 'package:get/get.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 
 class EditKundliScreen extends StatelessWidget {
   final int id;

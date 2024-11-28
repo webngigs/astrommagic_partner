@@ -10,7 +10,7 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 
 import '../../models/Master Table Model/assistant/assistant_all_skill_model.dart';
 import '../../models/Master Table Model/assistant/assistant_language_list_model.dart';

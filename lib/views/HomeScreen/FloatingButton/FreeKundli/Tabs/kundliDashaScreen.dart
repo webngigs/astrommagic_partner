@@ -1,8 +1,8 @@
 // ignore_for_file: file_names
 
-import 'package:astromagic/controllers/free_kundli_controller.dart';
-import 'package:astromagic/models/kundliModel.dart';
-import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/DashaTabs/vismshattariDasha.dart';
+import 'package:astrommagic/controllers/free_kundli_controller.dart';
+import 'package:astrommagic/models/kundliModel.dart';
+import 'package:astrommagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/DashaTabs/vismshattariDasha.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

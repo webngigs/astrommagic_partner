@@ -2,18 +2,18 @@
 
 import 'dart:developer';
 
-import 'package:astromagic/models/kundli_add_model.dart';
-import 'package:astromagic/models/kundlimodelAdd.dart';
-import 'package:astromagic/models/north_kundli_model.dart';
-import 'package:astromagic/models/southKundliModel.dart';
-import 'package:astromagic/services/apiHelper.dart';
-import 'package:astromagic/views/HomeScreen/FloatingButton/KundliMatching/north_kundli_match_result_screen.dart';
+import 'package:astrommagic/models/kundli_add_model.dart';
+import 'package:astrommagic/models/kundlimodelAdd.dart';
+import 'package:astrommagic/models/north_kundli_model.dart';
+import 'package:astrommagic/models/southKundliModel.dart';
+import 'package:astrommagic/services/apiHelper.dart';
+import 'package:astrommagic/views/HomeScreen/FloatingButton/KundliMatching/north_kundli_match_result_screen.dart';
 import 'package:date_format/date_format.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 
 import '../models/kundliModel.dart';
 import '../views/HomeScreen/FloatingButton/KundliMatching/south_kundali_matching_screen.dart';

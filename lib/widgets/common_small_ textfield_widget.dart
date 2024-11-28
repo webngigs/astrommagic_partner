@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 
-import 'package:astromagic/constants/colorConst.dart';
+import 'package:astrommagic/constants/colorConst.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 

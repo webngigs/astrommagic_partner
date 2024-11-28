@@ -1,10 +1,10 @@
 // ignore_for_file: prefer_interpolation_to_compose_strings, avoid_print
 
-import 'package:astromagic/models/report_model.dart';
-import 'package:astromagic/services/apiHelper.dart';
+import 'package:astrommagic/models/report_model.dart';
+import 'package:astrommagic/services/apiHelper.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 
 class ReportController extends GetxController {
   String screen = 'report_controller.dart';

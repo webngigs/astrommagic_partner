@@ -2,7 +2,7 @@
 
 import 'dart:developer';
 
-import 'package:astromagic/views/HomeScreen/home_screen.dart';
+import 'package:astrommagic/views/HomeScreen/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';

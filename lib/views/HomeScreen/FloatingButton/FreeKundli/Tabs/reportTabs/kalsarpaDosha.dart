@@ -1,7 +1,7 @@
 // ignore_for_file: file_names
 
-import 'package:astromagic/controllers/free_kundli_controller.dart';
-import 'package:astromagic/widgets/FreeKundliWidget/container_list_tile_widget.dart';
+import 'package:astrommagic/controllers/free_kundli_controller.dart';
+import 'package:astrommagic/widgets/FreeKundliWidget/container_list_tile_widget.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

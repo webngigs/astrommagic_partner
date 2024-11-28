@@ -1,6 +1,6 @@
-import 'package:astromagic/controllers/HomeController/wallet_controller.dart';
-import 'package:astromagic/controllers/free_kundli_controller.dart';
-import 'package:astromagic/views/HomeScreen/FloatingButton/KundliMatching/place_of_birth_screen.dart';
+import 'package:astrommagic/controllers/HomeController/wallet_controller.dart';
+import 'package:astrommagic/controllers/free_kundli_controller.dart';
+import 'package:astrommagic/views/HomeScreen/FloatingButton/KundliMatching/place_of_birth_screen.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

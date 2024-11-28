@@ -1,6 +1,6 @@
 // ignore_for_file: library_private_types_in_public_api, file_names
 
-import 'package:astromagic/controllers/kundli_matchig_controller.dart';
+import 'package:astrommagic/controllers/kundli_matchig_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

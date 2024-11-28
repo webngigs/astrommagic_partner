@@ -1,9 +1,9 @@
 // ignore_for_file: file_names
 
-import 'package:astromagic/controllers/free_kundli_controller.dart';
-import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/reportTabs/kalsarpaDosha.dart';
-import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/reportTabs/manglikDosh.dart';
-import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/reportTabs/sadesatiDosha.dart';
+import 'package:astrommagic/controllers/free_kundli_controller.dart';
+import 'package:astrommagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/reportTabs/kalsarpaDosha.dart';
+import 'package:astrommagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/reportTabs/manglikDosh.dart';
+import 'package:astrommagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/reportTabs/sadesatiDosha.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

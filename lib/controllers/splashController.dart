@@ -3,13 +3,13 @@
 import 'dart:convert';
 import 'dart:developer';
 
-import 'package:astromagic/controllers/HomeController/home_controller.dart';
-import 'package:astromagic/controllers/HomeController/wallet_controller.dart';
+import 'package:astrommagic/controllers/HomeController/home_controller.dart';
+import 'package:astrommagic/controllers/HomeController/wallet_controller.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:developer' as dev;
 

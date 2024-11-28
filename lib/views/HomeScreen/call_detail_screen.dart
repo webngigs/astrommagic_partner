@@ -3,15 +3,15 @@
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:astromagic/constants/colorConst.dart';
-import 'package:astromagic/controllers/HomeController/call_detail_controller.dart';
-import 'package:astromagic/models/History/call_history_model.dart';
-import 'package:astromagic/views/HomeScreen/player.dart';
+import 'package:astrommagic/constants/colorConst.dart';
+import 'package:astrommagic/controllers/HomeController/call_detail_controller.dart';
+import 'package:astrommagic/models/History/call_history_model.dart';
+import 'package:astrommagic/views/HomeScreen/player.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 import 'package:sizer/sizer.dart';
 
 import '../../models/chat_message_model.dart';

@@ -2,28 +2,28 @@
 
 import 'dart:developer';
 
-import 'package:astromagic/constants/colorConst.dart';
-import 'package:astromagic/controllers/Authentication/signup_controller.dart';
-import 'package:astromagic/controllers/callAvailability_controller.dart';
-import 'package:astromagic/controllers/chatAvailability_controller.dart';
-import 'package:astromagic/controllers/following_controller.dart';
-import 'package:astromagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/reportTabs/chatAvailabilityScreen.dart';
-import 'package:astromagic/views/HomeScreen/Profile/ProfileDetailScreen/assignment_detail_screen.dart';
-import 'package:astromagic/views/HomeScreen/Profile/ProfileDetailScreen/availabity_Detail_screen.dart';
-import 'package:astromagic/views/HomeScreen/Profile/ProfileDetailScreen/other_detail_screen.dart';
-import 'package:astromagic/views/HomeScreen/Profile/ProfileDetailScreen/personal_detail_screen.dart';
-import 'package:astromagic/views/HomeScreen/Profile/ProfileDetailScreen/skill_detail_screen.dart';
-import 'package:astromagic/views/HomeScreen/Profile/follower_list_screen.dart';
-import 'package:astromagic/views/HomeScreen/Profile/mediapickerDialog.dart';
-import 'package:astromagic/views/HomeScreen/Profile/stories_screen.dart';
-import 'package:astromagic/views/HomeScreen/call/callAvailabilityScreen.dart';
-import 'package:astromagic/views/HomeScreen/viewStories.dart';
+import 'package:astrommagic/constants/colorConst.dart';
+import 'package:astrommagic/controllers/Authentication/signup_controller.dart';
+import 'package:astrommagic/controllers/callAvailability_controller.dart';
+import 'package:astrommagic/controllers/chatAvailability_controller.dart';
+import 'package:astrommagic/controllers/following_controller.dart';
+import 'package:astrommagic/views/HomeScreen/FloatingButton/FreeKundli/Tabs/reportTabs/chatAvailabilityScreen.dart';
+import 'package:astrommagic/views/HomeScreen/Profile/ProfileDetailScreen/assignment_detail_screen.dart';
+import 'package:astrommagic/views/HomeScreen/Profile/ProfileDetailScreen/availabity_Detail_screen.dart';
+import 'package:astrommagic/views/HomeScreen/Profile/ProfileDetailScreen/other_detail_screen.dart';
+import 'package:astrommagic/views/HomeScreen/Profile/ProfileDetailScreen/personal_detail_screen.dart';
+import 'package:astrommagic/views/HomeScreen/Profile/ProfileDetailScreen/skill_detail_screen.dart';
+import 'package:astrommagic/views/HomeScreen/Profile/follower_list_screen.dart';
+import 'package:astrommagic/views/HomeScreen/Profile/mediapickerDialog.dart';
+import 'package:astrommagic/views/HomeScreen/Profile/stories_screen.dart';
+import 'package:astrommagic/views/HomeScreen/call/callAvailabilityScreen.dart';
+import 'package:astrommagic/views/HomeScreen/viewStories.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 import 'package:sizer/sizer.dart';
 
 import '../../../controllers/storiescontroller.dart';

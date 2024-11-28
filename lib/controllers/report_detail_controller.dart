@@ -2,13 +2,13 @@
 
 import 'dart:convert';
 import 'dart:io';
-import 'package:astromagic/controllers/HomeController/report_controller.dart';
-import 'package:astromagic/models/report_model.dart';
-import 'package:astromagic/report/open_file.dart';
-import 'package:astromagic/services/apiHelper.dart';
+import 'package:astrommagic/controllers/HomeController/report_controller.dart';
+import 'package:astrommagic/models/report_model.dart';
+import 'package:astrommagic/report/open_file.dart';
+import 'package:astrommagic/services/apiHelper.dart';
 import 'package:get/get.dart';
 import 'package:flutter_document_picker/flutter_document_picker.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 
 class ReportDetailController extends GetxController {
   ReportController reportController = Get.find<ReportController>();

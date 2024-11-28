@@ -3,13 +3,13 @@
 import 'dart:convert';
 import 'dart:developer';
 
-import 'package:astromagic/controllers/Authentication/signup_controller.dart';
-import 'package:astromagic/controllers/HomeController/call_controller.dart';
-import 'package:astromagic/controllers/HomeController/report_controller.dart';
-import 'package:astromagic/controllers/HomeController/wallet_controller.dart';
-import 'package:astromagic/main.dart';
-import 'package:astromagic/utils/global.dart' as global;
-import 'package:astromagic/views/HomeScreen/home_screen.dart';
+import 'package:astrommagic/controllers/Authentication/signup_controller.dart';
+import 'package:astrommagic/controllers/HomeController/call_controller.dart';
+import 'package:astrommagic/controllers/HomeController/report_controller.dart';
+import 'package:astrommagic/controllers/HomeController/wallet_controller.dart';
+import 'package:astrommagic/main.dart';
+import 'package:astrommagic/utils/global.dart' as global;
+import 'package:astrommagic/views/HomeScreen/home_screen.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';

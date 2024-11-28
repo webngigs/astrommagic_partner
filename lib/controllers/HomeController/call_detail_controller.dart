@@ -1,6 +1,6 @@
 // ignore_for_file: avoid_print
 
-import 'package:astromagic/services/apiHelper.dart';
+import 'package:astrommagic/services/apiHelper.dart';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';

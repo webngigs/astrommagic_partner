@@ -2,19 +2,19 @@
 
 import 'dart:developer';
 
-import 'package:astromagic/constants/colorConst.dart';
-import 'package:astromagic/constants/messageConst.dart';
-import 'package:astromagic/controllers/Authentication/signup_controller.dart';
-import 'package:astromagic/controllers/HomeController/wallet_controller.dart';
-import 'package:astromagic/views/HomeScreen/Drawer/Wallet/add_amount_screen.dart';
-import 'package:astromagic/widgets/app_bar_widget.dart';
-import 'package:astromagic/widgets/common_textfield_widget.dart';
+import 'package:astrommagic/constants/colorConst.dart';
+import 'package:astrommagic/constants/messageConst.dart';
+import 'package:astrommagic/controllers/Authentication/signup_controller.dart';
+import 'package:astrommagic/controllers/HomeController/wallet_controller.dart';
+import 'package:astrommagic/views/HomeScreen/Drawer/Wallet/add_amount_screen.dart';
+import 'package:astrommagic/widgets/app_bar_widget.dart';
+import 'package:astrommagic/widgets/common_textfield_widget.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 import 'package:sizer/sizer.dart';
 
 import '../../FloatingButton/KundliMatching/payment/AddmoneyToWallet.dart';

@@ -1,10 +1,10 @@
 // ignore_for_file: file_names
 
-import 'package:astromagic/controllers/splashController.dart';
+import 'package:astrommagic/controllers/splashController.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:astromagic'
+import 'package:astrommagic'
     '/utils/global.dart' as global;
 import 'package:sizer/sizer.dart';
 import '../BaseRoute/baseRoute.dart';

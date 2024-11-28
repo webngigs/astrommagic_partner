@@ -1,11 +1,11 @@
 // ignore_for_file: file_names
 
-import 'package:astromagic/constants/colorConst.dart';
-import 'package:astromagic/controllers/chatAvailability_controller.dart';
-import 'package:astromagic/widgets/app_bar_widget.dart';
-import 'package:astromagic/widgets/common_textfield_widget.dart';
-import 'package:astromagic/widgets/primary_text_widget.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/constants/colorConst.dart';
+import 'package:astrommagic/controllers/chatAvailability_controller.dart';
+import 'package:astrommagic/widgets/app_bar_widget.dart';
+import 'package:astrommagic/widgets/common_textfield_widget.dart';
+import 'package:astrommagic/widgets/primary_text_widget.dart';
+import 'package:astrommagic/utils/global.dart' as global;
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 

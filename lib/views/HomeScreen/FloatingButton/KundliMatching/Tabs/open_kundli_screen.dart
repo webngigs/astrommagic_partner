@@ -1,14 +1,14 @@
 import 'dart:math';
 
-import 'package:astromagic/constants/colorConst.dart';
-import 'package:astromagic/constants/messageConst.dart';
-import 'package:astromagic/controllers/free_kundli_controller.dart';
-import 'package:astromagic/controllers/kundli_matchig_controller.dart';
-import 'package:astromagic/widgets/common_padding_2.dart';
+import 'package:astrommagic/constants/colorConst.dart';
+import 'package:astrommagic/constants/messageConst.dart';
+import 'package:astrommagic/controllers/free_kundli_controller.dart';
+import 'package:astrommagic/controllers/kundli_matchig_controller.dart';
+import 'package:astrommagic/widgets/common_padding_2.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 
 class OpenKundliScreen extends StatelessWidget {
   OpenKundliScreen({super.key});

@@ -1,9 +1,9 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:astromagic/constants/colorConst.dart';
-import 'package:astromagic/controllers/HomeController/report_controller.dart';
-import 'package:astromagic/models/report_model.dart';
-import 'package:astromagic/views/HomeScreen/Report_Module/report_detail_screen.dart';
+import 'package:astrommagic/constants/colorConst.dart';
+import 'package:astrommagic/controllers/HomeController/report_controller.dart';
+import 'package:astrommagic/models/report_model.dart';
+import 'package:astrommagic/views/HomeScreen/Report_Module/report_detail_screen.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';

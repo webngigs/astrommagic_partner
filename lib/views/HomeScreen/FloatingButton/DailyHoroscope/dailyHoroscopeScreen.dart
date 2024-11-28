@@ -2,14 +2,14 @@
 
 import 'dart:io';
 
-import 'package:astromagic/controllers/dailyHoroscopeController.dart';
-import 'package:astromagic/controllers/splashController.dart';
-import 'package:astromagic/views/HomeScreen/FloatingButton/DailyHoroscope/dailyHoroScopeDetailScreen.dart';
+import 'package:astrommagic/controllers/dailyHoroscopeController.dart';
+import 'package:astrommagic/controllers/splashController.dart';
+import 'package:astrommagic/views/HomeScreen/FloatingButton/DailyHoroscope/dailyHoroScopeDetailScreen.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:custom_clippers/custom_clippers.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:astromagic/utils/global.dart' as global;
+import 'package:astrommagic/utils/global.dart' as global;
 import 'package:flutter_html/flutter_html.dart';
 import 'package:get/get.dart';
 

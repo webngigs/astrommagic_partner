@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 
-import 'package:astromagic/utils/CallUtils.dart';
+import 'package:astrommagic/utils/CallUtils.dart';
 
 class CallHandler {
   void handleIncomingCall(var messagedata) {
