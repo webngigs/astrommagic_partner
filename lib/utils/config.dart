@@ -4,11 +4,11 @@
 /// ********************** BASE URL FOR API ********************
 /// ==================================================================
 ///
-String contactsupportEmail = "support@gmail.com";
-String imgBaseurl = "https://astroway.diploy.in/";
-String pdfBaseurl = "https://astroway.diploy.in/public";
+String contactsupportEmail = "astrommagicofficial@gmail.com";
+String imgBaseurl = "https://app.astrommagic.com/";
+String pdfBaseurl = "https://app.astrommagic.com/public";
 String appMode = "LIVE";
-String OtplessappId = "EGN337D0735VTPMTMAYA";
+String OtplessappId = "DKRH16JDIAITJGRGOYGY";
 
 String storiesIcon = "assets/images/stories_icon.png";
 
