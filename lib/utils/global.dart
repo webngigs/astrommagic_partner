@@ -143,16 +143,15 @@ int? currentUserId;
 String agoraAppId = "832f8b58443247a2b8b74677198bbc82";
 String agoraAppCertificate = "36a8fdae33b447e8a928e108a7f36bd9";
 
-var agoraChannelName = "AstroMmagic"; //valid 24hr
-var agoraToken =
-    "007eJxTYChonS4qum1KpqFcPYfr+tcrt2g5cQYJ+FlsUpZx3bHTZ6kCg2mySYpZimWiqZmhqYlhWqqFqYWxaaqxaZJ5qolpoolB8Vuj9IZARgaHQmFGRgZGBhYgBvGZwCQzmGQBk9wMjsUlRfm+uYnpmckMDAD+wiBm";
-var channelName = "AstroMmagic";
-String token = ""; //dont know
-var liveChannelName = "AstroMmagic";
-var agoraChatUserId = "AstroMmagic";
-var chatChannelName = "AstroMmagic";
-var agoraChatToken =
-    "007eJxTYFjf/nZv/OYNzZdfnytpro/hUbquodxd/X/WxRaV9b41ju4KDKbJJilmKZaJpmaGpiaGaakWphbGpqnGpknmqSamiSYGum+M0hsCGRlCY52ZGRlYGRgZmBhAfAYGAPXxHe4=";
+String agoraChannelName = "AstroMmagic";
+String agoraToken = "007eJxTYChonS4qum1KpqFcPYfr+tcrt2g5cQYJ+FlsUpZx3bHTZ6kCg2mySYpZimWiqZmhqYlhWqqFqYWxaaqxaZJ5qolpoolB8Vuj9IZARgaHQmFGRgZGBhYgBvGZwCQzmGQBk9wMjsUlRfm+uYnpmckMDAD+wiBm";
+String agoraLiveToken = "";
+String channelName = "AstroMmagic";
+String agoraLiveChannelName = "";
+String liveChannelName = "AstroMmagic";
+String agoraChatToken = "007eJxTYFjf/nZv/OYNzZdfnytpro/hUbquodxd/X/WxRaV9b41ju4KDKbJJilmKZaJpmaGpiaGaakWphbGpqnGpknmqSamiSYGum+M0hsCGRlCY52ZGRlYGRgZmBhAfAYGAPXxHe4=";
+String agoraChatUserId = "AstroMmagic";
+String chatChannelName = "AstroMmagic";
 String encodedString = "&&";
 String appName = "";
 var nativeAndroidPlatform = const MethodChannel('nativeAndroid');
